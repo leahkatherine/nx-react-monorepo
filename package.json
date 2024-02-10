@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "api:dev": "nx run api:serve --configuration=development",
-    "web:dev": "nx run web:serve --configuration=development"
+    "web:dev": "nx run web:serve --configuration=development",
+    "database": "docker-compose up --build"
   },
   "private": true,
   "dependencies": {
