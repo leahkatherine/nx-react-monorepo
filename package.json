@@ -2,7 +2,10 @@
   "name": "@react-monorepo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "api:dev": "nx run api:serve --configuration=development",
+    "web:dev": "nx run web:serve --configuration=development"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "11.11.1",
