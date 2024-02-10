@@ -10,17 +10,20 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@react-monorepo/data-access": ["libs/shared/data-access/src/index.ts"],
+      "@react-monorepo/types": ["libs/shared/types/src/index.ts"],
+      "@react-monorepo/web/design-system": [
+        "libs/web/design-system/src/index.ts"
+      ],
+      "@react-monorepo/web/feat-dashboard": [
+        "libs/web/feat-dashboard/src/index.ts"
+      ]
+    }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }

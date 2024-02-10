@@ -1,16 +1,11 @@
-import styled from '@emotion/styled';
-
-import NxWelcome from './nx-welcome';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+import { DashboardRoute } from '@react-monorepo/web/feat-dashboard';
+import { Route, Routes } from 'react-router-dom';
 
 export function App() {
   return (
-    <StyledApp>
-      <NxWelcome title="web" />
-    </StyledApp>
+    <Routes>
+      <Route path="/*" element={<DashboardRoute />} />
+    </Routes>
   );
 }
 
