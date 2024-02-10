@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@react-monorepo/design-system": ["libs/web/design-system/src/index.ts"]
+      "@react-monorepo/web/design-system": ["libs/web/design-system/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
