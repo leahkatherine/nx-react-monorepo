@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@react-monorepo/data-access": ["libs/shared/data-access/src/index.ts"],
+      "@react-monorepo/feat-auth": ["libs/web/feat-auth/src/index.ts"],
       "@react-monorepo/types": ["libs/shared/types/src/index.ts"],
       "@react-monorepo/web/design-system": [
         "libs/web/design-system/src/index.ts"
