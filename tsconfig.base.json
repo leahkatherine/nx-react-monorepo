@@ -19,11 +19,13 @@
         "libs/web/shared-components/src/index.ts"
       ],
       "@react-monorepo/data-access": ["libs/shared/data-access/src/index.ts"],
-<<<<<<< Updated upstream
+
+      "@react-monorepo/web/feat-auth": ["libs/web/feat-auth/src/index.ts"],
+
       "@react-monorepo/types": ["libs/shared/types/src/index.ts"],
 =======
       "@react-monorepo/shared/types": ["libs/shared/types/src/index.ts"],
->>>>>>> Stashed changes
+    
       "@react-monorepo/web/design-system": [
         "libs/web/design-system/src/index.ts"
       ],

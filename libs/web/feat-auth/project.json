@@ -1,0 +1,8 @@
+{
+  "name": "feat-auth",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/web/feat-auth/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}
