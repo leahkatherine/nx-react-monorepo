@@ -1,4 +1,4 @@
-
+// TO DO: come back to this and generate other types when your ready. research from arams generated types
 
 export interface UserFragment {
   createdAt: Date;
