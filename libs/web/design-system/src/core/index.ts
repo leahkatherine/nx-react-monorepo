@@ -56,3 +56,5 @@ export * from './Table/Table';
 export * from './Table/Theme';
 export * from './Tooltip/Tooltip';
 export * from './Tooltip/Theme';
+export * from './Dialog/Dialog';
+export * from './Dialog/Theme';
