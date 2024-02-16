@@ -18,6 +18,7 @@ import {
   createDialogContentTheme,
   createDialogContentTextTheme,
   createDialogTitleTheme,
+} from '../../core';
 import { createDividerTheme } from '../../core';
 import { createFabTheme } from '../../core';
 import { createFilledInputTheme } from '../../core';
@@ -37,7 +38,7 @@ import {
   createToggleButtonTheme,
   createToggleButtonGroupTheme,
 } from '../../core';
-import { createTooltipTheme } from '../../core'; 
+import { createTooltipTheme } from '../../core';
 import { Theme } from '@mui/material';
 
 export const createComponents = (theme: Theme): Theme['components'] => {
