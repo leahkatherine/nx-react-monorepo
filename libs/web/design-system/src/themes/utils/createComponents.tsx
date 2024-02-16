@@ -3,51 +3,41 @@ import {
   createAccordionActionsTheme,
   createAccordionDetailsTheme,
   createAccordionSummaryTheme,
-} from '../../core/Accordion/Theme';
-import { createAlertTheme } from '../../core/Alert/Theme'; // TO DO: Create Alert Theme
-import { createAutocompleteTheme } from '../../core/Autocomplete/Theme'; // TO DO: Create Autocomplete Theme
-import { createAvatarTheme } from '../../core/Avatar/Theme'; // TO DO: Create Avatar Theme
-import { createButtonTheme } from '../../core/Button/Theme'; // TO DO: Create Button Theme
-import { createBreadcrumbsTheme } from '../../core/Breadcrumbs/Theme'; // TO DO: Create Breadcrumbs Theme
-import {
-  createCardTheme,
-  createCardActionAreaTheme,
-} from '../../core/Card/Theme'; // TO DO: Create Card Theme
-import { createCheckboxTheme } from '../../core/Checkbox/Theme'; // TO DO: Create Checkbox Theme
-import { createChipTheme } from '../../core/Chip/Theme'; // TO DO: Create Chip Theme
-import { createContainerTheme } from '../../core/Container/Theme'; // TO DO: Create Container Theme
+} from '../../core';
+import { createAlertTheme } from '../../core';
+import { createAutocompleteTheme } from '../../core';
+import { createAvatarTheme } from '../../core';
+import { createButtonTheme } from '../../core';
+import { createBreadcrumbsTheme } from '../../core';
+import { createCardTheme, createCardActionAreaTheme } from '../../core';
+import { createCheckboxTheme } from '../../core';
+import { createChipTheme } from '../../core';
+import { createContainerTheme } from '../../core';
 import {
   createDialogActionsTheme,
   createDialogContentTheme,
   createDialogContentTextTheme,
   createDialogTitleTheme,
-} from '../../core/Dialog/Theme';
-import { createDividerTheme } from '../../core/Divider/Theme'; // TO DO: Create Divider Theme
-import { createFabTheme } from '../../core/Fab/Theme'; // TO DO: Create Fab Theme
-import { createFilledInputTheme } from '../../core/FilledInput/Theme'; // TO DO: Create FilledInput Theme
-import { createFormControlLabelTheme } from '../../core/FormControl/Theme'; // TO DO: Create FormControlLabel Theme
-import { createFormHelperTextTheme } from '../../core/FormHelperText/Theme'; // TO DO: Create FormHelperText Theme
-import { createGridTheme } from '../../core/Grid/Theme'; // TO DO: Create Grid Theme
-import {
-  createInputTheme,
-  createInputLabelTheme,
-} from '../../core/Input/Theme'; // TO DO: Create Input Theme
-import { createMenuItemTheme } from '../../core/Menu/Theme'; // TO DO: Create MenuItem Theme
-import { createRadioTheme } from '../../core/Radio/Theme'; // TO DO: Create Radio Theme
-import { createSliderTheme } from '../../core/Slider/Theme'; // TO DO: Create Slider Theme
-import { createStepperTheme } from '../../core/Stepper/Theme'; // TO DO: Create Stepper Theme
-import { createSwitchTheme } from '../../core/Switch/Theme'; // TO DO: Create Switch Theme
-import {
-  createTableCellTheme,
-  createTableRowTheme,
-} from '../../core/Table/Theme'; // TO DO: Create TableCell Theme
-import { createTabTheme, createTabsTheme } from '../../core/Tabs/Theme'; // TO DO: Create Tab Theme
-import { createTextFieldTheme } from '../../core/TextField/Theme'; // TO DO: Create TextField Theme
+import { createDividerTheme } from '../../core';
+import { createFabTheme } from '../../core';
+import { createFilledInputTheme } from '../../core';
+import { createFormControlLabelTheme } from '../../core';
+import { createFormHelperTextTheme } from '../../core';
+import { createGridTheme } from '../../core';
+import { createInputTheme, createInputLabelTheme } from '../../core';
+import { createMenuItemTheme } from '../../core';
+import { createRadioTheme } from '../../core';
+import { createSliderTheme } from '../../core';
+import { createStepperTheme } from '../../core';
+import { createSwitchTheme } from '../../core';
+import { createTableCellTheme, createTableRowTheme } from '../../core/';
+import { createTabTheme, createTabsTheme } from '../../core';
+import { createTextFieldTheme } from '../../core';
 import {
   createToggleButtonTheme,
   createToggleButtonGroupTheme,
-} from '../../core/ToggleButton/Theme'; // TO DO: Create ToggleButton Theme
-import { createTooltipTheme } from '../../core/Tooltip/Theme'; // TO DO: Create Tooltip Theme
+} from '../../core';
+import { createTooltipTheme } from '../../core'; 
 import { Theme } from '@mui/material';
 
 export const createComponents = (theme: Theme): Theme['components'] => {
