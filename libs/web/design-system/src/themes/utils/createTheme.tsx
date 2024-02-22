@@ -2,7 +2,7 @@ import { createTheme as createMuiTheme, Theme } from '@mui/material';
 import { merge } from 'lodash';
 import { createComponents } from './createComponents';
 
-import { brandTheme } from '../brands/vegangouda'; // TO DO: create /brands/react-monorepo.tsx ?
+import { brandTheme } from '../brands/react-monorepo';
 export const createTheme = (): Theme => {
   const defaultTheme = createMuiTheme({
     breakpoints: {
