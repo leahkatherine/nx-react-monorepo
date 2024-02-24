@@ -8,7 +8,7 @@ import {
   IconButton,
 } from '@react-monorepo/web/design-system';
 import { authButtonStyleProps } from '../constants/style';
-import { useToast } from '@react-monorepo/web/design-system'; // TO DO: Create a useToast hook in design-system
+import { useToast } from '@react-monorepo/web/design-system'; 
 import {
   validateEmail,
   validatePassword,
