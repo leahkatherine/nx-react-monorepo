@@ -8,11 +8,11 @@ import {
   IconButton,
 } from '@react-monorepo/web/design-system';
 import { authButtonStyleProps } from '../constants/style';
-import { useToast } from '@react-monorepo/web/design-system'; 
+import { useToast } from '@react-monorepo/web/design-system';
 import {
   validateEmail,
   validatePassword,
-} from '@react-monorepo/shared/utils-validation'; // TO DO: Create a validateEmail function in shared/utils-validation, Create a validatePassword function in shared/utils-validation
+} from '@react-monorepo/shared/utils-validation';
 
 interface EmailLoginProps {
   onSubmit: (credentials: EmailCredentials) => void;

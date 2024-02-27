@@ -6,7 +6,7 @@ import {
   Box,
 } from '@react-monorepo/web/design-system'; // TO DO: Create a Card component in design-system, Create a Typography component in design-system, Create an AnimatedTypography component in design-system, Create a Box component in design-system
 import { useState } from 'react';
-import { EmailLogin } from './EmailLogin'; // TO DO: Return to this file once you complete the EmailLogin components correct imports
+import { EmailLogin } from './EmailLogin';
 
 import { useLogin } from '../hooks/useLogin'; // TO DO: Create a useLogin hook from ./hooks
 
