@@ -4,7 +4,7 @@ import {
   AnimatedTypography,
   animationProps,
   Box,
-} from '@react-monorepo/web/design-system'; // TO DO: Create a Card component in design-system, Create a Typography component in design-system, Create an AnimatedTypography component in design-system, Create a Box component in design-system
+} from '@react-monorepo/web/design-system';
 import { useState } from 'react';
 import { EmailLogin } from './EmailLogin';
 
